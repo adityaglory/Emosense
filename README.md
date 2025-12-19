@@ -47,7 +47,8 @@ docker run -p 8501:8501 emosense-v3
 Access the app at: http://localhost:8501
 
 📂 Project Structure
-
+```
+.
 ├── artifacts/          # Quantized ONNX Model (INT8) & Tokenizer
 ├── src/                # Source Code
 │   ├── app.py          # Streamlit Dashboard (Frontend)
@@ -56,4 +57,5 @@ Access the app at: http://localhost:8501
 │   └── database.py     # SQLite Database Handler
 ├── Dockerfile          # Container Configuration
 └── requirements.txt    # Python Dependencies
+```
 
