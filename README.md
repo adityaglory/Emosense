@@ -1,6 +1,6 @@
 # 🤯 EmoSense 3.0: Multi-Label Emotion AI
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED)
 ![Model](https://img.shields.io/badge/AI-DistilBERT-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
