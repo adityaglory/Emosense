@@ -1,0 +1,13 @@
+torch>=2.1.0
+transformers>=4.35.0
+datasets>=2.14.0
+evaluate>=0.4.0
+scikit-learn
+mlflow>=2.8.0
+onnx>=1.15.0
+onnxruntime>=1.16.0
+streamlit>=1.30.0
+sqlalchemy>=2.0.0
+pandas>=2.1.0
+shap
+accelerate>=0.26.0

@@ -1,0 +1,37 @@
+# --- Python & System Garbage ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.vscode/
+.idea/
+
+# --- Virtual Environments (WAJIB IGNORE) ---
+venv/
+env/
+.env
+miniconda3/
+anaconda3/
+
+# --- Database Lokal (JANGAN DI-UPLOAD) ---
+# Biar log chat kamu di laptop gak kesebar ke publik
+*.db
+*.sqlite3
+instance/
+
+# --- Training Logs & Checkpoints ---
+# Hasil training yang bergiga-giga gak perlu masuk git
+mlruns/
+results/
+results_multilabel/
+wandb/
+
+# --- Model Artifacts Strategy ---
+# KITA KEEP: model_quant.onnx (65MB - Aman)
+# KITA KEEP: folder artifacts/model/ (Tokenizer config - Kecil & Penting)
+# KITA BUANG: Model mentah PyTorch (Ratusan MB - Gak muat di GitHub)
+artifacts/*.bin
+artifacts/*.safetensors
+artifacts/*.data
+artifacts/*.pth
