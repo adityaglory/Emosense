@@ -5,7 +5,7 @@
 ![Model](https://img.shields.io/badge/AI-DistilBERT-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-<img width="1905" height="881" alt="Screenshot 2025-12-19 153738" src="https://github.com/user-attachments/assets/e73a80a5-df16-404c-b9f3-08cce1600db9" />
+<img width="1900" height="800" alt="Screenshot 2025-12-19 153738" src="https://github.com/user-attachments/assets/e73a80a5-df16-404c-b9f3-08cce1600db9" />
 
 **EmoSense 3.0** is a production-grade NLP Microservice capable of detecting **28 distinct emotional states** (e.g., *Admiration, Remorse, Bittersweet*) from a single sentence text input.
 
@@ -44,3 +44,4 @@ docker build -t emosense-v3 .
 ```bash
 docker run -p 8501:8501 emosense-v3
 ```
+Access the app at: http://localhost:8501
